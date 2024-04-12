@@ -52,7 +52,7 @@ if (configFile != null && configFile.exists()) {
         );
       } catch (e) {
         if (e instanceof Error && e.code === "MODULE_NOT_FOUND") {
-          console.error("You have an expo app.config[.js|.ts] file but do not have \"@expo/config\" installed. \"@expo/config\" is required for react-native-google-mobile-ads to read the app.config[.js|.ts] file and should be installed by default with expo. Please install \"@expo/config\" and try again.")
+          console.error("You have an expo app.config[.js|.ts] file but do not have \\"@expo/config\\" installed. \\"@expo/config\\" is required for react-native-google-mobile-ads to read the app.config[.js|.ts] file and should be installed by default with expo. Please install \\"@expo/config\\" and try again.")
         } else {
           throw e
         }
